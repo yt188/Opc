@@ -1,19 +1,5 @@
-# 核心 Web 框架
-streamlit>=1.32.0
-
-# 数值计算
+streamlit>=1.28.0
 numpy>=1.24.0
-
-# 绘图与可视化
 matplotlib>=3.7.0
-
-# 图像处理
-Pillow>=10.0.0
-
-# 数据处理
-pandas>=2.0.0
-
-# 网络请求
+Pillow>=9.0.0
 requests>=2.31.0
-
-# 算法与数据结构（heapq、random、typing、ast 是Python内置，无需安装）
