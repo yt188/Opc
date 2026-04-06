@@ -18,8 +18,8 @@ import pandas as pd
 # 检查 OpenCV 是否安装
 try:
     import cv2
-except ImportError:
-    st.error("请先安装 OpenCV: pip install opencv-python")
+except ImportError as e:
+    st.error(f"OpenCV 导入失败: {e}\n请确保 requirements.txt 包含 opencv-python-headless")
     st.stop()
 
 # 检查 Pillow 版本并设置兼容模式
